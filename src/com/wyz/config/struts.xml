@@ -16,8 +16,8 @@
 		</action>
 	</package>
 	<package name="default" extends="struts-default">
-		<action name="queryTask" class="com.wyz.action.LoginAction"
-			method="queryTask">
+		<action name="auth" class="com.wyz.action.AuthAction"
+			method="auth">
 		</action>
 	</package>
 </struts>

@@ -19,7 +19,7 @@ import com.wyz.util.ToJson;
  * @author wuyize
  *
  */
-public class LoginAction extends ActionSupport {
+public class AuthAction extends ActionSupport {
 	/**
 	 * 
 	 */
@@ -32,7 +32,7 @@ public class LoginAction extends ActionSupport {
 	private static final long serialVersionUID = 1L;
 
 	// 查询所有的Task
-	public void queryTask() throws IOException, SQLException {
+	public void auth() throws IOException, SQLException {
 		HttpServletResponse response = ServletActionContext.getResponse();
 		response.setCharacterEncoding("utf-8");
 		PrintWriter out;
